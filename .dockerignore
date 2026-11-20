@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!README.md
+!AGENTS.md
+!.dockerignore
+!.gitattributes
+!prepare.py
+!package.py
+!original.config
+!rt.patch.xz
+!rt-provenance.json
+!vaio-policy.patch
+!poulsback-dependencies.patch
+!v4l2loopback/
+!v4l2loopback/**

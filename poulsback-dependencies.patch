@@ -1,0 +1,15 @@
+--- a/drivers/gpu/drm/Kconfig
++++ b/drivers/gpu/drm/Kconfig
+@@ -527,3 +527,12 @@
+ config DRM_PRIVACY_SCREEN
+ 	bool
+ 	default n
++
++config DRM_POULSBACK_EXTERNAL
++	tristate "Poulsback external module dependencies"
++	depends on DRM && PCI && X86_32
++	select DRM_GEM_SHMEM_HELPER
++	select DRM_SCHED
++	help
++	  Build dependencies for the separately compiled Poulsback module.
++	  This does not load or select Poulsback as the display driver.

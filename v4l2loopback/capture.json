@@ -1,0 +1,27 @@
+{
+  "v4l2loopback.c": {
+    "source": "/usr/src/v4l2loopback-0.12.5/v4l2loopback.c",
+    "sha256": "8ec4632225ce93b9d9a4ebeac2719fd10961b39003767d56532028a94583af91",
+    "bytes": 71186
+  },
+  "v4l2loopback_formats.h": {
+    "source": "/usr/src/v4l2loopback-0.12.5/v4l2loopback_formats.h",
+    "sha256": "f64fc884193196cc58b7ebea2bcfdc9ed1e6c10d30f496944a0ac198f3dafebe",
+    "bytes": 9757
+  },
+  "Makefile": {
+    "source": "/usr/src/v4l2loopback-0.12.5/Makefile",
+    "sha256": "334c2799ce918caf0842c8f6816e2364ba714ad0a119691ca150419ff0ffcf40",
+    "bytes": 2213
+  },
+  "dkms.conf": {
+    "source": "/usr/src/v4l2loopback-0.12.5/dkms.conf",
+    "sha256": "53ae7faa7863912ab2e11604d256c604e4ad556ad078adbdad93a6c2e1d03a97",
+    "bytes": 581
+  },
+  "copyright": {
+    "source": "/usr/share/doc/v4l2loopback-dkms/copyright",
+    "sha256": "e02dfeb18622e55ba5139de4cb4f486770d5d170d6b8db7880a5bcb6751d2a52",
+    "bytes": 2360
+  }
+}

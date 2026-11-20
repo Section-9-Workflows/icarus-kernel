@@ -1,0 +1,4 @@
+# Unified diff context intentionally starts with a space before source tabs.
+*.patch -whitespace
+# Preserve captured third-party source bytes, including their original spacing.
+v4l2loopback/* -whitespace

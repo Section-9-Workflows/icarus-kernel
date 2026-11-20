@@ -1,0 +1,7 @@
+{
+  "url": "https://cdn.kernel.org/pub/linux/kernel/projects/rt/6.1/older/patch-6.1.190-rt70.patch.xz",
+  "sha256": "220e58f822b11679918602f7e4c037652dd81ac411c097d4c7d7c3c7dd2062af",
+  "signature_verified": true,
+  "signer_fingerprint": "D5653EA39C8675DA4BD5971C13B55DD07C53B851",
+  "key_source": "kernel.org WKD, clrkwllms@kernel.org"
+}
