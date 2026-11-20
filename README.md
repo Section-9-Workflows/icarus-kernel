@@ -51,6 +51,6 @@ not qualify every driver pin or a newly built image. The original kernel's
 [public test notes](https://github.com/ishad0w/poulsback/pull/11#validation)
 also identify the hardware and earlier revisions.
 
-I used an AI coding agent to migrate the configuration, prepare the recipes,
-and run build checks. I performed the reported hands-on device testing.
-Licensing and third-party attribution are in [NOTICE.md](NOTICE.md).
+## License
+
+See [NOTICE.md](NOTICE.md) for licensing and third-party attribution.
