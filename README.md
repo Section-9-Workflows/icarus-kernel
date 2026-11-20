@@ -28,33 +28,23 @@ and unrelated hardware patches were not carried forward.
 
 ## What is published
 
-This first snapshot preserves the earlier build recipe and its public driver
-pins. It builds `6.1.190-rt70-vaio-p`, the matching Poulsback module, and the
-v4l2loopback module used by the original setup. It is a reproducible starting
-point for the platform work, **not an update to install over the newer kernels**.
-
-The laptop now has two separately packaged variants of this platform:
-
-- `6.1.190-rt70-icarus1`: the personal integration, first in GRUB.
-- `6.1.190-rt70-pbdev1`: the upstream-dev candidate, second in GRUB.
-
-The older Gold Master kernel remains third, with further recovery entries kept.
-The dual-variant build/deployment recipe is still local. Private driver source
-and legacy decoder firmware are not included here. This repository does not
-reproduce those two complete installed variants yet.
+The recipe builds `6.1.190-rt70-vaio-p`, a matching Poulsback module, and
+v4l2loopback. Kernel inputs and driver revisions are pinned in the Dockerfile.
+Private driver source and decoder firmware are not included.
 
 See [building](docs/building.md), [installation and recovery](docs/installation.md),
 and [source provenance](docs/provenance.md).
 
 ## Device validation
 
-The platform was booted and used on my VAIO P. On the dev variant, I tested
-battery-idle sleep and lid-triggered sleep, wake, console switching, and the
+I booted and used this kernel configuration on a Sony VAIO P VPCP118KX. With
+a separately built development driver, I tested battery-idle sleep and
+lid-triggered sleep, wake, console switching, and the
 [Poulygon](https://github.com/Section-9-Workflows/poulygon) cube after wake.
 Poulygon is a compact flat-shaded 3D engine that uses Poulsback directly from a
 Linux console. Its repository may require access.
 
-Those results belong to the installed driver revisions recorded in the
+Those results apply to the driver revisions recorded in the
 [suspend/resume PR](https://github.com/poulsback/poulsback-dev/pull/3), which
 currently requires access to upstream's private development repository. They do
 not qualify every driver pin or a newly built image. The original kernel's

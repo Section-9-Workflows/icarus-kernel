@@ -17,3 +17,9 @@ Do not install, reboot or replace a kernel merely because a build passed.
 Maintain separate kernel releases and module directories for driver variants.
 Preserve working kernels and GRUB recovery entries. Follow README.md for scope
 and docs/installation.md for the installation procedure.
+
+Public documentation describes the project, its build inputs and how others can
+use it. Keep personal deployment state, boot-menu order, private paths and
+operational handover notes outside the repository. Keep the VAIO P model and hardware details prominent: this configuration
+specifically targets that platform. Exact revisions belong in validation records
+when they support a specific claim.

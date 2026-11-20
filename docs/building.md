@@ -53,13 +53,11 @@ reviewing their contents separately. Packaging does not install or boot anything
 
 ## Published recipe validation
 
-Recipe commit `10d515c3a1359381ca42adb61eeddfcba71820c9` completed on Depot
-(build `fl2kx0366w`). The unchanged kernel compilation layer was reused from
+Recipe commit `10d515c3a1359381ca42adb61eeddfcba71820c9` completed on Depot. The unchanged kernel compilation layer was reused from
 cache; the reference and VAIO RT module builds and packaging ran successfully.
 Both module reports passed compilation and stack checks. All 40 exported file
-checksums passed local verification. The artifacts remain in Depot Registry
-and local bulk storage, rather than in Git history.
+checksums passed local verification. Build artifacts are not stored in Git history.
 
 This validates the published recipe and package production. These newly exported
 packages have not been installed or booted. The live device results in the
-README apply to the explicitly named installed variants.
+README apply to their recorded kernel and driver revisions.
