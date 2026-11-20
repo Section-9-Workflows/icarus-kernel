@@ -7,7 +7,7 @@
   The exact hash and the signature verification recorded during the original
   import are in [rt-provenance.json](../rt-provenance.json). The build checks the
   hash; it does not repeat the historical signature verification.
-- Original configuration: captured from my working
+- Original configuration: captured from a working
   `5.4.82-rt45-xanmod1-vaio-p` kernel and source tree. It is configuration data,
   not a copy of the XanMod tree. Its SHA-256 is
   `dd9267005495feb16c64af99b8f6fb6dbf6815c2f2c1f7617c520fa236c05515`.
